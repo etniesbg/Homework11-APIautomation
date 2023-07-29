@@ -8,9 +8,6 @@ import io.restassured.http.ContentType;
 public class LoginAPI {
     private static final String BASE_URL = "https://api.inv.bg";
     private static final String ENDPOINT = "/login/token";
-//    private static final String EMAIL = "cmotanmc@gmail.com";
-//    private static final String PASSWORD = "1234565432";
-//    private static final String DOMAIN = "nitom";
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public static String obtainToken() {
